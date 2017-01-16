@@ -120,3 +120,24 @@ header {
 		}
 	}
 }
+.error_block {
+	@extend .container;
+	text-align: center;
+	h2 {
+		color: $color-dark;
+		margin: 40px 0 20px;
+		font-size: 30px;
+		font-family: $font;
+	}
+	p {
+		color: $color-dark;
+		font-size: 16px;
+		font-family: $font;
+		font-weight: 100;
+	}
+	img {
+		width: 500px;
+		height: auto;
+		margin: 30px 0;
+	}
+}
